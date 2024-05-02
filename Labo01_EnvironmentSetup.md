@@ -113,19 +113,19 @@ Answer the questions below, giving reasons for your answer (link, source).
 * How does the AWS Cli interact with the cloud ?
 
 ```
-//TODO answer the question
+it sends the written commands to the aws api to perform actions on cloud services 
 ```
 
 * What other ways do we have of dialoguing/interacting with the AWS cloud if we wanted to do without the CLI?
 
 ```
-//TODO answer the question
+the graphical interface of aws or the aws SDK
 ```
 
 * What commands do I need to run in the CLI to start an ec2 instance?
 
 ```
-//TODO answer the question
+aws ec2 run-instances --image-id ami-0c55b159cbfafe1f0 --count 1 --instance-type t2.micro --key-name MyKeyPair
 ```
 
 ### Docker Engine
@@ -133,13 +133,13 @@ Answer the questions below, giving reasons for your answer (link, source).
 * What type of hypervisor does Docker use?
 
 ```
-//TODO answer the question
+Docker uses a lightweight hypervisor called MobyLinuxVM
 ```
 
 * What role does the Docker Desktop play in the Docker architecture?
 
 ```
-//TODO answer the question
+it is the graphical interface of docker that allows you to manage your containers and images
 ```
 
 ### Java Environment
@@ -147,7 +147,7 @@ Answer the questions below, giving reasons for your answer (link, source).
 * JDK, JRE, JVM... what's the difference?
 
 ```
-//TODO answer the question
+JDK is the development kit that contains the JRE and the JVM. The JRE is the runtime environment that allows you to run java applications. The JVM is the virtual machine that runs the java.
 ```
 
 ### Maven
@@ -155,7 +155,7 @@ Answer the questions below, giving reasons for your answer (link, source).
 * What is the command you need to use Maven to retrieve dependencies (and only that)?
 
 ```
-//TODO answer the question
+mvn dependency:resolve
 ```
 
 
