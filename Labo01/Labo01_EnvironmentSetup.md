@@ -147,7 +147,7 @@ it is the graphical interface of docker that allows you to manage your container
 * JDK, JRE, JVM... what's the difference?
 
 ```
-JDK is the development kit that contains the JRE and the JVM. The JRE is the runtime environment that allows you to run java applications. The JVM is the virtual machine that runs the java.
+JDK is the development kit that contains the JVMs. The JRE is the runtime environment that allows you to run java applications. The JVM is the virtual machine that runs the java.
 ```
 
 ### Maven
