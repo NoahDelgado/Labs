@@ -110,7 +110,7 @@ the data is not persisted, it's not saved in a database
 Docker could help us to deploy the application in a container
 ```
 
-* Try to list the tasks to be carried out to obtain two thirds, one hosting the application part locally and the second third using Docker for the database engine.
+* Try to list the tasks to be carried out to obtain two tiers, one hosting the application part locally and the second tier using Docker for the database engine.
 
 ```
 I don't understand the question

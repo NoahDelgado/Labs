@@ -44,7 +44,7 @@ Here is the installed intellij version :
 
 ```
 
-### Containers Engins - Docker
+### Containers Engine - Docker
 
 ```
 Install docker desktop from this link with the default settings : 
