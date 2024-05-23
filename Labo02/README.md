@@ -19,13 +19,17 @@ mvn package
 
 ```
 it download all the dependencies needed to the good woriking of the project
+Generate the .jar file (compile the code)
+Test the compiled code
 ```
 
 * What java dependencies are needed to make this work?
 
 
 ```
-the one that are in the pom.xml file
+(the one that are in the pom.xml file)
+JDK 17
+JVM 17
 ```
 
 * Where do we find the pre-compiled application after that?
@@ -67,7 +71,8 @@ http://localhost:8080/
 * [Maven plug in to run the app](https://docs.spring.io/spring-boot/docs/current/maven-plugin/reference/htmlsingle/#run)
 
 ```bash
-mvn spring-boot:run
+(mvnw is a wrapper for maven in the project and is used to avoid conflicts with the maven version installed on the machine)
+./mvnw spring-boot:run
 ```
 
 ---
@@ -95,10 +100,12 @@ the data is not persisted, it's not saved in a database
 * How many logic layers are implemented on this application?
 
 ```
-3 layers
+5 layers
 1) controller
 2) service
 3) repository
+4) vue
+5) h2
 ```
 
 ---

@@ -42,6 +42,7 @@ Here is the installed intellij version :
         com.jetbrains.php (241.14494.240)
     Kotlin: 241.14494.240-IJ
 
+![img.png](img.png)
 ```
 
 ### Containers Engine - Docker
